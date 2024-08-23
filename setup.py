@@ -1,17 +1,17 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="img_dataset_builder",
+    name="vision-dataset-builder",
     version="0.1",
     packages=find_packages(),
     install_requires=[
-        'split-folders',
-        'PyYAML',
-        'Click',
+        "split-folders",
+        "PyYAML",
+        "Click",
     ],
     entry_points={
-        'console_scripts': [
-            'img-dataset-builder=img_dataset_builder.cli:cli',
+        "console_scripts": [
+            "vision-dataset-builder=img_dataset_builder.cli:cli",
         ],
     },
     author="Yasiru Rangana",
