@@ -1,3 +1,5 @@
 pytest==8.3.2
 pylint==3.2.6
 black==24.8.0
+split-folders==0.5.1
+click==8.1.7
