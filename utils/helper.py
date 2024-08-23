@@ -1,6 +1,6 @@
 # Description: Helper functions for the scripts
 import os
-from utils.config import raw_data_folder, image_folder
+from .config import raw_data_folder, image_folder
 
 
 def get_dirs_inside_data_folder():
