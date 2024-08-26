@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     package_data={
-        '': ['config.yaml'],
+        'img_dataset_builder': ['config.yaml'],
     },
     install_requires=[
         "split-folders",
