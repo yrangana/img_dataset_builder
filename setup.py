@@ -2,8 +2,12 @@ from setuptools import setup, find_packages
 
 setup(
     name="vision-dataset-builder",
-    version="0.2",
+    version="0.3",
     packages=find_packages(),
+    include_package_data=True,
+    package_data={
+        '': ['config.yaml'],
+    },
     install_requires=[
         "split-folders",
         "PyYAML",
@@ -15,7 +19,7 @@ setup(
         ],
     },
     author="Yasiru Rangana",
-    author_email="yrkau86@example.com",
+    author_email="yrkau86@gmail.com",
     description="A simple package to create image datasets for computer vision models.",
     url="https://github.com/yrangana/img_dataset_builder",
     classifiers=[
