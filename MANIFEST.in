@@ -1,1 +1,1 @@
-include config.yaml
+include img_dataset_builder/config.yaml
